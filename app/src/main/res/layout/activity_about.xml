@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorAppAccent"
+    android:contentDescription="@string/app_name"
+    tools:context=".Activities.AboutActivity">
+
+    <ImageView
+        android:id="@+id/image_splash_icon"
+        android:layout_width="141dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="150dp"
+        android:contentDescription="@string/app_full_name"
+        android:src="@drawable/ic_money"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_regular"
+        android:paddingTop="20dp"
+        android:text="@string/app_full_name"
+        android:textColor="@color/colorBlack"
+        android:textSize="18.93sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_splash_icon" />
+
+    <TextView
+        android:id="@+id/text_developers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/indigo_daisy"
+        android:paddingTop="20dp"
+        android:text="@string/developers"
+        android:textColor="@color/colorBlack"
+        android:textSize="18.93sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_app_name" />
+
+    <TextView
+        android:id="@+id/text_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/indigo_daisy"
+        android:paddingTop="20dp"
+        android:text="@string/data"
+        android:textColor="@color/colorBlack"
+        android:textSize="18.93sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_developers" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

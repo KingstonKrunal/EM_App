@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "448334442451",
+    "firebase_url": "https://em-app-a74fd.firebaseio.com",
+    "project_id": "em-app-a74fd",
+    "storage_bucket": "em-app-a74fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448334442451:android:e112f2c42b0b1e08ac8926",
+        "android_client_info": {
+          "package_name": "com.krunal_shah.emapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448334442451-00t5p8apalu60d3ftfaqcbqdsphgj2ns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWFnBYiYtRx8w1w42o4wGkAxabpd-S1SY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448334442451-00t5p8apalu60d3ftfaqcbqdsphgj2ns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
